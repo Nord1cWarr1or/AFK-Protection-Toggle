@@ -1,0 +1,7 @@
+[en]
+AFKPROTECTION_ADDON_CHAT_STATE_ON	= ^4* ^1You're ^3turn off ^1AFK protection.
+AFKPROTECTION_ADDON_CHAT_STATE_OFF	= ^4* ^1You're ^3turn on ^1AFK protection.
+
+[ru]
+AFKPROTECTION_ADDON_CHAT_STATE_ON	= ^4* ^1Вы ^3отключили ^1защиту AFK.
+AFKPROTECTION_ADDON_CHAT_STATE_OFF	= ^4* ^1Вы ^3включили ^1защиту AFK.
