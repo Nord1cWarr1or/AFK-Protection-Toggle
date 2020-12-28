@@ -1,8 +1,28 @@
+/*  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+*                                                                                       *
+*   Plugin: "AFK Protection: Toggle"                                                    *
+*                                                                                       *
+*   Official plugin support: https://dev-cs.ru/threads/10726/                           *
+*   Official repository: https://github.com/Nord1cWarr1or/AFK-Protection-Toggle         *
+*                                                                                       *
+*   Contacts of the author: Telegram: @NordicWarrior                                    *
+*                                                                                       *
+*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+*                                                                                       *
+*   Плагин: "Защита АФК: Переключение"                                                  *
+*                                                                                       *
+*   Официальная поддержка плагина: https://dev-cs.ru/threads/10726/                     *
+*   Официальный репозиторий: https://github.com/Nord1cWarr1or/AFK-Protection-Toggle     *
+*                                                                                       *
+*   Связь с автором: Telegram: @NordicWarrior                                           *
+*                                                                                       *
+*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   */
+
 #include <amxmodx>
 #include <nvault>
 #include <afk_protection>
 
-new const PLUGIN_VERSION[] = "0.0.2";
+new const PLUGIN_VERSION[] = "1.0.0";
 
 const NVAULT_PRUNE_DAYS = 14;       // How many days before a player's state will be removed from vault
 
