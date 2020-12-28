@@ -89,6 +89,11 @@ public client_authorized(id, const szAuthID[])
     }
 }
 
+public OnConfigsExecuted()
+{
+    register_cvar("AFKProtection_Toggle_version", PLUGIN_VERSION, FCVAR_SERVER|FCVAR_SPONLY|FCVAR_UNLOGGED);
+}
+
 public plugin_end()
 {
     if(g_iVaultHandle != INVALID_HANDLE)
